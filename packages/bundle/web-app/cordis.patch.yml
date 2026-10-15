@@ -298,6 +298,10 @@
     - id: ui-sidebar-files
       name: '@deepseek-ai/dsh-client-ui-sidebar-files'
 
+    # Pomodoro Timer: focus timer with work/break cycles in right Sidebar.
+    - id: ui-pomodoro
+      name: '@deepseek-ai/dsh-client-ui-pomodoro'
+
     - id: ui-settings
       name: '@deepseek-ai/dsh-client-ui-settings'
 
@@ -317,6 +321,11 @@
     # bundles the sidebar page leaves out are inspected here.
     - id: ui-settings-plugin-inventory
       name: '@deepseek-ai/dsh-client-ui-settings-plugin-inventory'
+
+    # Read-only Skills and MCP servers tabs beside the Plugin list: the
+    # main-view session's skill catalog and every loaded mcp-client row.
+    - id: ui-settings-skill-mcp
+      name: '@deepseek-ai/dsh-client-ui-settings-skill-mcp'
 
     - id: ui-conversation
       name: '@deepseek-ai/dsh-client-ui-conversation'

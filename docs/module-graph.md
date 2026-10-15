@@ -179,6 +179,7 @@ flowchart TD
     pkg_client_ui_permission_presets["client-ui-permission-presets"]
     pkg_client_ui_plan["client-ui-plan"]
     pkg_client_ui_plugin_manager["client-ui-plugin-manager"]
+    pkg_client_ui_pomodoro["client-ui-pomodoro"]
     pkg_client_ui_primitives["client-ui-primitives"]
     pkg_client_ui_reference["client-ui-reference"]
     pkg_client_ui_renderer["client-ui-renderer"]
@@ -193,6 +194,7 @@ flowchart TD
     pkg_client_ui_settings_plugins["client-ui-settings-plugins"]
     pkg_client_ui_settings_session_log["client-ui-settings-session-log"]
     pkg_client_ui_settings_shell["client-ui-settings-shell"]
+    pkg_client_ui_settings_skill_mcp["client-ui-settings-skill-mcp"]
     pkg_client_ui_settings_subagent["client-ui-settings-subagent"]
     pkg_client_ui_settings_web_search["client-ui-settings-web-search"]
     pkg_client_ui_shortcuts["client-ui-shortcuts"]
@@ -1431,6 +1433,7 @@ flowchart TD
 | [`client-ui-permission-presets`](../packages/client/ui-permission-presets) | `client` | — |
 | [`client-ui-plan`](../packages/client/ui-plan) | `client` | — |
 | [`client-ui-plugin-manager`](../packages/client/ui-plugin-manager) | `client` | — |
+| [`client-ui-pomodoro`](../packages/client/ui-pomodoro) | `client` | — |
 | [`client-ui-primitives`](../packages/client/ui-primitives) | `client` | — |
 | [`client-ui-reference`](../packages/client/ui-reference) | `client` | — |
 | [`client-ui-renderer`](../packages/client/ui-renderer) | `client` | — |
@@ -1445,6 +1448,7 @@ flowchart TD
 | [`client-ui-settings-plugins`](../packages/client/ui-settings-plugins) | `client` | — |
 | [`client-ui-settings-session-log`](../packages/client/ui-settings-session-log) | `client` | — |
 | [`client-ui-settings-shell`](../packages/client/ui-settings-shell) | `client` | — |
+| [`client-ui-settings-skill-mcp`](../packages/client/ui-settings-skill-mcp) | `client` | — |
 | [`client-ui-settings-subagent`](../packages/client/ui-settings-subagent) | `client` | — |
 | [`client-ui-settings-web-search`](../packages/client/ui-settings-web-search) | `client` | — |
 | [`client-ui-shortcuts`](../packages/client/ui-shortcuts) | `client` | — |

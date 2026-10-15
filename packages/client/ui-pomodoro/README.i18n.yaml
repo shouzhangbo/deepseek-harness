@@ -1,0 +1,43 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-pomodoro/README.md
+/:
+  en: 5cae5558d15b3bdf
+  zh: 953ce8172a6f35d4
+/deepseek-ai-dsh-client-ui-pomodoro:
+  en: bb451bd81859812e
+  zh: a90a9382d3ce9f75
+/deepseek-ai-dsh-client-ui-pomodoro/summary:
+  en: 16f4ad0b60d0f378
+  zh: 27ef867fa9721d61
+/deepseek-ai-dsh-client-ui-pomodoro/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: a90c10a64f0de5ed
+/deepseek-ai-dsh-client-ui-pomodoro/use-this-package:
+  en: e4823ce9696aeb9b
+  zh: ad2cb046cb11c946
+/deepseek-ai-dsh-client-ui-pomodoro/understand-the-implementation:
+  en: 42b15ac6321706aa
+  zh: 9e27bcf13e0891c2
+/deepseek-ai-dsh-client-ui-pomodoro/understand-the-implementation/registration:
+  en: 4d0969b2b2bf9b5a
+  zh: 4d77d58de5304401
+/deepseek-ai-dsh-client-ui-pomodoro/understand-the-implementation/timer:
+  en: a1f8a0971b003682
+  zh: d9377af36c993e1d
+/deepseek-ai-dsh-client-ui-pomodoro/further-exploration:
+  en: 7f0b6e545dc716b5
+  zh: da6ff69c5abd3a07
+/deepseek-ai-dsh-client-ui-pomodoro/model-experience:
+  en: b2bcf2dfb1fb7142
+  zh: 8ad262bb8cc46a74
+/deepseek-ai-dsh-client-ui-pomodoro/model-experience/kv-cache-effect:
+  en: ca75c51c89c2c9b0
+  zh: 2064958b0754647e
+/deepseek-ai-dsh-client-ui-pomodoro/known-limitations-and-deferred-work:
+  en: 8677f543cfc619e3
+  zh: d961681c48c2b1be
+/deepseek-ai-dsh-client-ui-pomodoro/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 4c879960b94cc733

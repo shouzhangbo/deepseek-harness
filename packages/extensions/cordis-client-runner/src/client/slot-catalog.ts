@@ -2693,6 +2693,8 @@ export const CLIENT_SLOT_API: readonly ClientSlotEntry[] = [
     declaredBy: 'an entry in \'settings.section\' (client-ui-settings-plugins), so it exists while that entry is mounted',
     occupants: [
       'client-ui-settings-plugin-inventory PluginInventorySettingsTab id \'all\'',
+      'client-ui-settings-skill-mcp SkillsSettingsTab id \'skills\'',
+      'client-ui-settings-skill-mcp McpSettingsTab id \'mcp\'',
     ],
     replaceRisk: 'none',
     example: 'return {\n  inject: [\'slots\'],\n  apply(ctx) {\n    ctx.slots.inject(\'settings.plugins.tab\', () => ctx.slots.register(\n      { name: \'settings.plugins.tab\', id: \'my-entry\', order: 100, label: \'My entry\' },\n      () => React.createElement(\'div\', null, \'hello\'),\n    ))\n  },\n}',
@@ -3209,6 +3211,7 @@ export const CLIENT_SLOT_API: readonly ClientSlotEntry[] = [
     occupants: [
       'client-ui-deliverables ReviewTab',
       'client-ui-plan PlanPreview',
+      'client-ui-pomodoro PomodoroPanel',
       'client-ui-schedule ScheduleTaskTab',
       'client-ui-sidebar-browser BrowserBody',
       'client-ui-sidebar-documentpreview TextPreview',
